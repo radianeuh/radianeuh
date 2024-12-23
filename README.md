@@ -1,4 +1,4 @@
-- 👋 Hi, I’m <a href="https://radiane.xyz/vava" target="_blank">@radianeuh</a>
+- 👋 Hi, I’m [@radianeuh](https://radiane.xyz/vava)
 - 👀 I’m interested in myself and me
 - 🌱 I’m currently learning nothing since I know everything
 - 💞️ I’m looking to collaborate on nothing
