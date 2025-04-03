@@ -19,9 +19,10 @@ jobs:
           echo "Selected theme: $theme"
           sed -i "s/theme=[^&]*/theme=$theme/" README.md
           echo "Updated README.md with theme: $theme"
+          cat README.md # Debugging: View the updated README.md
           COMMIT_MESSAGE="Update theme to $theme"
-          echo "Commit message: $COMMIT_MESSAGE" #Add to debug the commit message.
-          echo "::set-output name=commit_message::$COMMIT_MESSAGE" #Pass the commit message to the next step
+          echo "Commit message: $COMMIT_MESSAGE"
+          echo "::set-output name=commit_message::$COMMIT_MESSAGE"
 
       - name: Commit changes
         run: |
@@ -30,6 +31,3 @@ jobs:
           git add README.md
           git commit -m "${{ steps.set_random_theme.outputs.commit_message }}" || exit 0
           git push
-        id: commit
-      - name: check commit message
-        run: echo "${{ steps.commit.outputs.commit_message }}"
