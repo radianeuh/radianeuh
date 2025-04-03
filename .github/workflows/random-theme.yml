@@ -15,7 +15,7 @@ jobs:
         run: |
           themes=("booru-lisu" "booru-qualityhentais" "booru-jaypee")
           theme=${themes[$RANDOM % ${#themes[@]}]}
-          sed -i "s/theme=booru-lisu/theme=$theme/" README.md
+          sed -i "s/theme=[^&]*/theme=$theme/" README.md
 
       - name: Commit changes
         run: |
