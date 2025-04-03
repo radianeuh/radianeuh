@@ -16,7 +16,9 @@ jobs:
         run: |
           themes=("booru-lisu" "booru-qualityhentais" "booru-jaypee")
           theme=${themes[$RANDOM % ${#themes[@]}]}
+          echo "Selected theme: $theme" # Added echo statement for debugging
           sed -i "s/theme=[^&]*/theme=$theme/" README.md
+          echo "Updated README.md with theme: $theme" #Added echo statement for debugging
 
       - name: Commit changes
         run: |
