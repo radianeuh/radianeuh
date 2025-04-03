@@ -19,15 +19,15 @@ jobs:
           echo "Selected theme: $theme"
           sed -i "s/theme=[^&]*/theme=$theme/" README.md
           echo "Updated README.md with theme: $theme"
-          cat README.md # Debugging: View the updated README.md
+          cat README.md
           COMMIT_MESSAGE="Update theme to $theme"
           echo "Commit message: $COMMIT_MESSAGE"
-          echo "::set-output name=commit_message::$COMMIT_MESSAGE"
+          echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV #Using environment file instead of set-output
 
       - name: Commit changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "${{ steps.set_random_theme.outputs.commit_message }}" || exit 0
+          git commit -m "$COMMIT_MESSAGE" || exit 0 #use environment variable.
           git push
