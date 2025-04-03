@@ -3,11 +3,13 @@
 </p>
 
 <p align="center">
+  <a href="https://discord.com/users/925192939980857375"><img src="https://lanyard.cnrad.dev/api/925192939980857375" /></a>
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/radianeuh/radianeuh/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/radianeuh/radianeuh/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/radianeuh/radianeuh/output/github-contribution-grid-snake.svg" width="800" height="100" />
   </picture>
 </p>
-
-<a href="https://discord.com/users/925192939980857375"><img src="https://lanyard.cnrad.dev/api/925192939980857375" /></a>
