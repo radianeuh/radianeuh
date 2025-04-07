@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img id="getloli-counter" src="https://count.getloli.com/@radianeuh?name=radianeuh&theme=booru-lisu&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1" height="130" />
+  <img id="getloli-counter" src="https://count.getloli.com/@radianeuh?name=radianeuh<img id="getloli-counter" src="https://count.getloli.com/@radianeuh?name=radianeuh&theme=booru-lisu&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1" height="130" />theme=booru-jaypee<img id="getloli-counter" src="https://count.getloli.com/@radianeuh?name=radianeuh&theme=booru-lisu&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1" height="130" />padding=7<img id="getloli-counter" src="https://count.getloli.com/@radianeuh?name=radianeuh&theme=booru-lisu&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1" height="130" />offset=0<img id="getloli-counter" src="https://count.getloli.com/@radianeuh?name=radianeuh&theme=booru-lisu&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1" height="130" />align=bottom<img id="getloli-counter" src="https://count.getloli.com/@radianeuh?name=radianeuh&theme=booru-lisu&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1" height="130" />scale=2<img id="getloli-counter" src="https://count.getloli.com/@radianeuh?name=radianeuh&theme=booru-lisu&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1" height="130" />pixelated=1<img id="getloli-counter" src="https://count.getloli.com/@radianeuh?name=radianeuh&theme=booru-lisu&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1" height="130" />darkmode=1" height="130" />
 </p>
 <p align="center">
   <picture>
