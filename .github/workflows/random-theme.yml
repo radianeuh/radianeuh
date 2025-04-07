@@ -17,11 +17,12 @@ jobs:
           themes=("booru-lisu" "booru-qualityhentais" "booru-jaypee")
           theme=${themes[$RANDOM % ${#themes[@]}]}
           echo "Selected theme: $theme"
-          sed -i 's/theme=[^&]*\&/theme='"$theme"'&/' README.md # corrected sed command.
+          image_url="https://count.getloli.com/@radianeuh?name=radianeuh&theme=$theme&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1"
+          echo "New image URL: $image_url"
+          sed -i "s#<img id=\"getloli-counter\" src=\"https://count.getloli.com/@radianeuh?name=radianeuh&theme=.*&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1\" height=\"130\" />#<img id=\"getloli-counter\" src=\"$image_url\" height=\"130\" />#g" README.md
           echo "Updated README.md with theme: $theme"
           cat README.md
           COMMIT_MESSAGE="Update theme to $theme"
-          echo "Commit message: $COMMIT_MESSAGE"
           echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
 
       - name: Commit changes
