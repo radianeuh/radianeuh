@@ -1,5 +1,5 @@
 <p align="center">
-  <img id="getloli-counter" src="https://count.getloli.com/@radianeuh?name=radianeuh&theme=booru-lisu&padding=7&offset=0&align=bottom&scale=2&pixelated=1&darkmode=1" height="250" />
+  <img id="getloli-counter" src="https://count.getloli.com/@radianeuh?theme=booru-lisu&padding=8&offset=0&align=bottom&scale=1&pixelated=1&darkmode=auto" height="250" />
 </p>
 <p align="center">
   <picture>
